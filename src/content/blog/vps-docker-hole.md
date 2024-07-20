@@ -1,7 +1,7 @@
 ---
 author: longlin
-pubDatetime: 2024-07-20T11:00:00Z
-modDatetime: 2024-07-20T11:00:00Z
+pubDatetime: 2024-07-19T11:00:00Z
+modDatetime: 2024-07-19T11:00:00Z
 title: 国内VPS装Docker踩坑寄录
 slug: vps-docker-hole
 featured: true
