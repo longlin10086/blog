@@ -1,3 +1,6 @@
+// Supports weights 100-900
+// import '@fontsource-variable/noto-sans-sc';
+
 function withOpacity(variableName) {
   return ({ opacityValue }) => {
     if (opacityValue !== undefined) {
@@ -16,6 +19,10 @@ module.exports = {
     screens: {
       sm: "640px",
     },
+
+    // fontFamily: {
+    //   sans: ['noto-sans-sc'],
+    // },
 
     extend: {
       textColor: {
