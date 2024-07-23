@@ -12,7 +12,7 @@ const fetchFonts = async () => {
   // Regular Font
   const fontFileRegular = await fetch(
     // "https://www.1001fonts.com/download/font/ibm-plex-mono.regular.ttf"
-    `${website}fonts/ma-shan-zheng/ttf/ma-shan-zheng-5-400-normal.ttf`
+    `${website}fonts/ma-shan-zheng/ma-shan-zheng-chinese-simplified-400-normal.woff`
   );
   const fontRegular: ArrayBuffer = await fontFileRegular.arrayBuffer();
 
@@ -38,12 +38,12 @@ const options: SatoriOptions = {
       weight: 400,
       style: "normal",
     },
-    // {
-    //   name: "IBM Plex Mono",
-    //   data: fontBold,
-    //   weight: 600,
-    //   style: "normal",
-    // },
+    {
+      name: "IBM Plex Mono",
+      data: fontBold,
+      weight: 600,
+      style: "normal",
+    },
   ],
 };
 
