@@ -11,8 +11,8 @@ const website = isDev ? "http://localhost:4321/" : SITE.website;
 const fetchFonts = async () => {
   // Regular Font
   const fontFileRegular = await fetch(
-    // "https://www.1001fonts.com/download/font/ibm-plex-mono.regular.ttf"
-    `${website}fonts/ma-shan-zheng/ma-shan-zheng-chinese-simplified-400-normal.woff`
+    "https://www.1001fonts.com/download/font/ibm-plex-mono.regular.ttf"
+    // `${website}fonts/ma-shan-zheng/ma-shan-zheng-chinese-simplified-400-normal.woff`
   );
   const fontRegular: ArrayBuffer = await fontFileRegular.arrayBuffer();
 
