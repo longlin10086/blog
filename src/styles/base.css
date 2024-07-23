@@ -31,8 +31,10 @@
     --color-card-muted: 138, 51, 2;
     --color-border: 171, 75, 8;
   }
-  html {
+  h1, h2, h3, h4, h5, h6 {
     font-family: "Noto Sans SC Variable", sans-serif;
+    font-weight: 600;
+    line-height: 1.1;
   }
   #sun-svg,
   html[data-theme="dark"] #moon-svg {
