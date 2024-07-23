@@ -19,7 +19,6 @@
     "@astrojs/check": "^0.4.1",
     "@astrojs/rss": "^4.0.2",
     "@fontsource-variable/noto-sans-sc": "^5.0.6",
-    "@fontsource/ma-shan-zheng": "^5.0.12",
     "@resvg/resvg-js": "^2.6.0",
     "astro": "^4.2.1",
     "fuse.js": "^7.0.0",
