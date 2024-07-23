@@ -3,11 +3,16 @@ import { Resvg } from "@resvg/resvg-js";
 import { type CollectionEntry } from "astro:content";
 import postOgImage from "./og-templates/post";
 import siteOgImage from "./og-templates/site";
+import { SITE } from "@config";
+
+const isDev = import.meta.env.DEV;
+const website = isDev ? "http://localhost:4321/" : SITE.website;
 
 const fetchFonts = async () => {
   // Regular Font
   const fontFileRegular = await fetch(
-    "https://www.1001fonts.com/download/font/ibm-plex-mono.regular.ttf"
+    // "https://www.1001fonts.com/download/font/ibm-plex-mono.regular.ttf"
+    `${website}fonts/ma-shan-zheng/ttf/ma-shan-zheng-5-400-normal.ttf`
   );
   const fontRegular: ArrayBuffer = await fontFileRegular.arrayBuffer();
 
@@ -28,17 +33,17 @@ const options: SatoriOptions = {
   embedFont: true,
   fonts: [
     {
-      name: "IBM Plex Mono",
+      name: "Ma Shan Zheng",
       data: fontRegular,
       weight: 400,
       style: "normal",
     },
-    {
-      name: "IBM Plex Mono",
-      data: fontBold,
-      weight: 600,
-      style: "normal",
-    },
+    // {
+    //   name: "IBM Plex Mono",
+    //   data: fontBold,
+    //   weight: 600,
+    //   style: "normal",
+    // },
   ],
 };
 

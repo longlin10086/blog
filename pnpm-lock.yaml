@@ -17,6 +17,9 @@ importers:
       '@fontsource-variable/noto-sans-sc':
         specifier: ^5.0.6
         version: 5.0.6
+      '@fontsource/ma-shan-zheng':
+        specifier: ^5.0.12
+        version: 5.0.12
       '@resvg/resvg-js':
         specifier: ^2.6.0
         version: 2.6.2
@@ -647,6 +650,9 @@ packages:
 
   '@fontsource-variable/noto-sans-sc@5.0.6':
     resolution: {integrity: sha512-aw43cFuLAo+at9lfzbejCSkusivMQ1uUPlWeqde+eAkMvhtMkO2LjSp0QJCyVDf22NtLNbOX0WYNPtocHXFuiA==}
+
+  '@fontsource/ma-shan-zheng@5.0.12':
+    resolution: {integrity: sha512-s9li4OzS85lSUCrcPJBYfek1Rh1Nc/lJotchFCbCNwcr/XFxqYIfJoTrGA5jjiSsrqRF9vV9C8Ov1JXfhJuF3w==}
 
   '@humanwhocodes/config-array@0.11.14':
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
@@ -4353,6 +4359,8 @@ snapshots:
   '@fastify/busboy@2.1.1': {}
 
   '@fontsource-variable/noto-sans-sc@5.0.6': {}
+
+  '@fontsource/ma-shan-zheng@5.0.12': {}
 
   '@humanwhocodes/config-array@0.11.14':
     dependencies:
