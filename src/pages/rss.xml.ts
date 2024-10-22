@@ -16,5 +16,9 @@ export async function GET() {
       description: data.description,
       pubDate: new Date(data.modDatetime ?? data.pubDatetime),
     })),
+    follow_challenge: {
+      feedId: 68913651598039040,
+      userId: 67163482033647616,
+    },
   });
 }
