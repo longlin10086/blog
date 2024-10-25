@@ -5,7 +5,7 @@ modDatetime: 2024-10-08T23:50:00+08:00
 title: 内地普通大学生不完全港卡攻略
 slug: hk-card
 featured: true
-draft: false
+draft: true
 tags:
   - bank card
 description: 卡牌大师，何时来的？
