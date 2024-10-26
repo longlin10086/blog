@@ -32,7 +32,7 @@ description: OpenAuto，生日快乐！
 
 ### `2023年3月`
 
-由于学校是第一年在大一开设 「自动化认识与实践」考试课，由于没有前人的资料参考，实验指导书更是靠不住，大家或多或少都踩了不少坑，结题时学生和老师间还闹出了一点[不愉快事件](https://github.com/longlin10086/HITSZ_lab_project?tab=readme-ov-file#4-%E5%86%99%E5%9C%A8%E6%9C%80%E5%90%8E)，因此，很有必要留下一些 文字/资料 给下届学弟学妹参考。正好看到 [Maxwell Jay](https://github.com/MaxwellJay256) 在仓库更新了一些相关资料，于是便顺手补充了一些之前集中的资料（[PR](https://github.com/HITSZ-OpenAuto/HITSZ-OpenAuto/pull/22)）
+当时学校是第一年在大一开设「自动化认识与实践」考试课，由于没有前人的资料参考，实验指导书更是靠不住，大家或多或少都踩了不少坑，结题时学生和老师间还闹出了一点[不愉快事件](https://github.com/longlin10086/HITSZ_lab_project?tab=readme-ov-file#4-%E5%86%99%E5%9C%A8%E6%9C%80%E5%90%8E)，因此，很有必要留下一些 文字/资料 给下届学弟学妹参考。正好看到 [Maxwell Jay](https://github.com/MaxwellJay256) 在仓库更新了一些相关资料，于是便顺手补充了一些之前集中的资料（[PR](https://github.com/HITSZ-OpenAuto/HITSZ-OpenAuto/pull/22)）
 
 ![auto-pr](@assets/images/HOA-anniversary/auto-pr.png)
 
@@ -44,9 +44,9 @@ description: OpenAuto，生日快乐！
 
 ### `2023年10月`
 
-10月12日，[Maxwell Jay](https://github.com/MaxwellJay256) 发布了 [issue#49](https://github.com/HITSZ-OpenAuto/HITSZ-OpenAuto/issues/49)，面对仓库日益增大的问题，我们开始商讨如何对仓库进行拆分，[大物实验IA](https://github.com/HITSZ-OpenAuto/PHYS1002) 作为第一个被分离出来的仓库，如今已经获得了 **57个star**。
+10月12日，[Maxwell Jay](https://github.com/MaxwellJay256) 发布了 [issue#49](https://github.com/HITSZ-OpenAuto/HITSZ-OpenAuto/issues/49)，面对仓库日益增大的问题，我们开始商讨如何对仓库进行拆分，[大物实验IA](https://github.com/HITSZ-OpenAuto/PHYS1002) 作为第一个被分离出来的仓库，如今已经获得了**57个star**。
 
-10月28日，[Longbin](https://github.com/TangLongbin) 学长给所有 OpenAuto 项目的所有活跃开发者抄送了一封邮件：
+10月28日，[Longbin](https://github.com/TangLongbin) 学长给所有 OpenAuto 项目的活跃开发者抄送了一封邮件：
 
 ![mail](@assets/images/HOA-anniversary/mail.png)
 
@@ -62,7 +62,7 @@ description: OpenAuto，生日快乐！
 
 至此，我们项目的整体流程已经明晰————抓取各仓库的 markdown 文档后再使用 Hugo 在前端进行页面渲染。
 
-11月7日-9日，我在原 action 基础上进行了修改，实现了 自动抓取组织下所有匹配的课程仓库的脚本，同时借助 tag.txt 对课程文档进行分类。（[PR](https://github.com/HITSZ-OpenAuto/hoa-moe/pull/3)）
+11月7日-9日，我在原 action 基础上进行了修改，实现了自动抓取组织下所有匹配的课程仓库的脚本，同时借助 tag.txt 对课程文档进行分类。（[PR](https://github.com/HITSZ-OpenAuto/hoa-moe/pull/3)）
 
 主要功能实现后，剩下的便是搬运仓库和 一些CSS上修修补补的工作了。当时还尝试了一些有意思的动画，不过由于不太合适所以最终还是被 discard 。
 
