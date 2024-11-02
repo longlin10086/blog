@@ -64,7 +64,7 @@ description: OpenAuto，生日快乐！
 
 11月7日-9日，我在原 action 基础上进行了修改，实现了自动抓取组织下所有匹配的课程仓库的脚本，同时借助 tag.txt 对课程文档进行分类。（[PR](https://github.com/HITSZ-OpenAuto/hoa-moe/pull/3)）
 
-主要功能实现后，剩下的便是搬运仓库和 一些CSS上修修补补的工作了。当时还尝试了一些有意思的动画，不过由于不太合适所以最终还是被 discard 。
+主要功能实现后，剩下的便是搬运仓库和一些CSS上修修补补的工作了。当时还尝试了一些有意思的动画，不过由于不太合适所以最终还是被 discard 。
 
 ![prs-in-nov](@assets/images/HOA-anniversary/prs-in-nov.png)
 
