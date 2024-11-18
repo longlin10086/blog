@@ -37,6 +37,13 @@ export const FRIENDS: FriendObjects = [
     title: "Steven Lynn's Blog",
     description: "Steven Lynn的个人博客",
   },
+  {
+    blogURL: "https://observatoryx.vercel.app/",
+    avatarURL:
+      "https://observatoryx.vercel.app/_astro/IMG_7218.B5FsYGDl_1NB5Au.webp",
+    title: "ObservatoryX",
+    description: "天文观测站",
+  },
 ];
 
 export const SOCIALS: SocialObjects = [
