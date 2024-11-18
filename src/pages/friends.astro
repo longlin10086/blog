@@ -1,10 +1,11 @@
 ---
-import { SITE } from "@config";
+import { FRIENDS, SITE } from "@config";
 import Breadcrumbs from "@components/Breadcrumbs.astro";
 import Footer from "@components/Footer.astro";
 import Header from "@components/Header.astro";
 import Layout from "@layouts/Layout.astro";
 import FriendCard from "@components/FriendCard.astro";
+import type { map } from "astro/zod";
 
 export interface Props {
   frontmatter: {
@@ -22,19 +23,19 @@ const { frontmatter } = Astro.props;
   <main id="main-content">
     <section id="friends" class="prose mb-28 max-w-3xl prose-img:border-0">
       <h1 class="text-2xl tracking-wider sm:text-3xl">友链</h1>
-      <div class="flex justify-center items-center flex-wrap">
-        <FriendCard
-          blogURL="https://blog.longlin.tech/"
-          avatarURL="https://avatars.githubusercontent.com/u/110278150?s=400&u=1cc03388b1a41b5d409de8c19b6d8a356d686b78&v=4"
-          title="longlin's 个人小站"
-          description="Simple is Complex."
-        />
-        <FriendCard
-          blogURL="https://blog.stv.pm/"
-          avatarURL="https://avatars.githubusercontent.com/u/113920720?v=4"
-          title="Steven Lynn's Blog"
-          description="Steven Lynn的个人博客"
-        />
+      <div class="flex justify-start items-end flex-wrap">
+        {
+          FRIENDS.map(friend => {
+            return (
+              <FriendCard
+                blogURL={friend.blogURL}
+                avatarURL={friend.avatarURL}
+                title={friend.title}
+                description={friend.description}
+              />
+            );
+          })
+        }
       </div>
     </section>
   </main>

@@ -1,4 +1,4 @@
-import type { Site, SocialObjects } from "./types";
+import type { Site, SocialObjects, FriendObjects } from "./types";
 
 export const SITE: Site = {
   website: "https://blog.longlin.tech/", // replace this with your deployed domain
@@ -22,6 +22,22 @@ export const LOGO_IMAGE = {
   width: 216,
   height: 46,
 };
+
+export const FRIENDS: FriendObjects = [
+  {
+    blogURL: "https://blog.longlin.tech/",
+    avatarURL:
+      "https://avatars.githubusercontent.com/u/110278150?s=400&u=1cc03388b1a41b5d409de8c19b6d8a356d686b78&v=4",
+    title: "longlin's 个人小站",
+    description: "Simple is Complex.",
+  },
+  {
+    blogURL: "https://blog.stv.pm/",
+    avatarURL: "https://avatars.githubusercontent.com/u/113920720?v=4",
+    title: "Steven Lynn's Blog",
+    description: "Steven Lynn的个人博客",
+  },
+];
 
 export const SOCIALS: SocialObjects = [
   {

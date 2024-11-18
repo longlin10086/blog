@@ -15,15 +15,15 @@ const {
 ---
 
 <a
-  class="min-w-72 max-w-72 max-h-48 min-h-36 mx-4 my-2 no-underline"
+  class="min-w-72 max-w-72 max-h-24 min-h-24 mx-4 my-2 no-underline"
   href={blogURL}
 >
   <div
-    class="ease-in-out duration-200 hover:shadow-lg hover:to-current my-4 border-2 rounded-md border-current min-h-full w-full flex justify-between items-center"
+    class="ease-in-out duration-200 hover:shadow-lg hover:to-current my-2 border-2 rounded-sm border-current min-h-full w-full flex justify-between items-center"
   >
-    <img src={avatarURL} width="80" class="!m-0 p-0 my-0" />
-    <div class="flex-col justify-center items-center mr-2">
-      <div class="!my-0 mr-2 text-start relative font-bold">{title}</div>
+    <img src={avatarURL} width="72" class="!m-0 p-0 my-0 shadow-inner" />
+    <div class="flex-col justify-center items-center mr-4 text-end">
+      <div class="!my-0 relative font-bold">{title}</div>
       <div class="text-sm text-gray-400">{description}</div>
     </div>
   </div>

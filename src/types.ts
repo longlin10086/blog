@@ -17,3 +17,10 @@ export type SocialObjects = {
   active: boolean;
   linkTitle: string;
 }[];
+
+export type FriendObjects = {
+  blogURL: string;
+  avatarURL: string;
+  title: string;
+  description: string;
+}[];
