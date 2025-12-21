@@ -44,6 +44,12 @@ export const FRIENDS: FriendObjects = [
     title: "ObservatoryX",
     description: "天文观测站",
   },
+  {
+    blogURL: "https://hakadao.cc",
+    avatarURL: "https://avatars.githubusercontent.com/u/33394391?v=4",
+    title: "Hakadao",
+    description: "whoami",
+  },
 ];
 
 export const SOCIALS: SocialObjects = [
